@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+ body {
+	 background: #000;
+}
+ .intro-wrapper {
+	 position: fixed;
+	 height: 100%;
+	 width: 100%;
+	 top: 0px;
+	 left: 0px;
+	 visibility: visible;
+	 z-index: 1;
+	 background: #333;
+}
+ .intro-wrapper .intro-line {
+	 position: fixed;
+	 top: 50%;
+}
+ .grid {
+	 display: grid;
+	 grid-template-columns: 1fr 1fr;
+	 grid-template-rows: 1fr 1fr;
+	 grid-gap: 20px;
+}
+ img {
+	 width: 50vw;
+	 height: 100vh;
+	 object-fit: cover;
+}
+ img:hover {
+	 border: white solid 10px;
+	 opacity: 0.8;
+	 transition: border 0.5s ease-in-out;
+}
+ .text {
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 z-index: 10;
+}
+ .text h1 {
+	 color: white;
+	 letter-spacing: 2px;
+	 text-transform: uppercase;
+	 font-family: 'Long Cang', cursive;
+	 font-weight: bolder;
+	 font-size: 60px;
+}
+ 
